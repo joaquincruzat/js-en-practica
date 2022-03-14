@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <title>Javascript en práctica</title>
+</head>
+
+<body>
+    <section>
+        <h1>Formulario</h1>
+           
+            <form action="#" name="formulario" id="formulario">
+                <p class="resultado"></p>
+                <div>
+                    <label for="nombre">Nombre Completo</label> <br>
+                    <input type="text" class="nombre-completo"> <br>
+                    <span class="error-nombre"></span>
+                </div>
+                <div>
+                    <label for="asunto">Asunto</label> <br>
+                    <input type="text" class="asunto"> <br>
+                    <span class="error-asunto"></span>
+                </div>
+                <div>
+                    <label for="mensaje">Mensaje</label> <br>
+                    <textarea type="text" class="mensaje"></textarea> <br>
+                    <span class="error-mensaje"></span>
+                </div>
+                <br>
+                <button type="submit" class="submit">Enviar</button>
+            </form>
+    </section>
+    <section>
+        <h1>Paleta de Colores</h1>
+        <div class="containerBox">
+            <div id="boxRed" style="width:50px;height:50px;background-color:red">
+            </div>
+            <div id="boxOrange" style="width:50px;height:50px;background-color:orange">
+            </div>
+            <div id="boxYellow" style="width:50px;height:50px;background-color:yellow">
+            </div>
+            <div id="boxGreen" style="width:50px;height:50px;background-color:green">
+            </div>
+            <div id="boxCyan" style="width:50px;height:50px;background-color:cyan">
+            </div>
+            <div id="boxMagenta" style="width:50px;height:50px;background-color:magenta">
+            </div>
+        </div>
+        <div class="container">
+            <div class="boxColor"></div>
+        </div>
+    </section>
+    <section>
+        <h1>Calculadora</h1>
+        <p id="activarCalculadora">Haga click aquí para activar la calculadora</p>
+        <p class="resultadoOperacion"></p>
+    </section>
+    <script src="assets/javascript/javascript.js"></script>
+</body>
+
+</html>
